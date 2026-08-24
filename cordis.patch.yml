@@ -1,0 +1,13 @@
+# uncle-bob-harness bundle layer. Applied after whatever in-box bundles the
+# profile already stacked (base+web-app or base+headless). Insert only; do not
+# replace dsh-base rows (a replace must restate every key).
+- insert:
+    - id: uncle-bob-director
+      name: uncle-bob-harness
+      config:
+        subagentProvider: spawn
+        artifactRoot: .uncle-bob
+        crapCap: 8
+        retryBudget: 2
+        startOnFirstUserMessage: true
+        enableStoryTool: true

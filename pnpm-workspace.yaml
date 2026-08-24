@@ -1,0 +1,11 @@
+packages:
+  - '.'
+  - 'fixtures/fizzbuzz'
+
+autoInstallPeers: false
+
+peerDependencyRules:
+  allowAny:
+    - '@deepseek-ai/*'
+  ignoreMissing:
+    - '@deepseek-ai/*'

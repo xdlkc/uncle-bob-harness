@@ -1,0 +1,11 @@
+/node_modules/
+/lib/
+/coverage/
+/reports/
+.uncle-bob/
+*.tsbuildinfo
+.DS_Store
+fixtures/fizzbuzz/node_modules/
+fixtures/fizzbuzz/coverage/
+fixtures/fizzbuzz/reports/
+fixtures/fizzbuzz/.uncle-bob/

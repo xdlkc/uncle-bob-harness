@@ -1,0 +1,8 @@
+{
+  "modules": [
+    { "name": "public", "pattern": "src/index.ts", "mayDependOn": ["impl"] },
+    { "name": "impl", "pattern": "src/**/*.ts", "mayDependOn": [] }
+  ],
+  "externalAllow": ["node:"],
+  "forbidCycles": true
+}

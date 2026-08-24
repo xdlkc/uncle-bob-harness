@@ -1,0 +1,7 @@
+{
+  "mutate": ["src/**/*.ts"],
+  "testRunner": "vitest",
+  "coverageAnalysis": "perTest",
+  "reporters": ["json", "clear-text"],
+  "jsonReporter": { "fileName": "reports/mutation/mutation.json" }
+}
